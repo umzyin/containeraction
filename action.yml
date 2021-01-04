@@ -1,0 +1,14 @@
+name: 'my first container action'
+description: 'A UMzY Dcoker and Github'
+author: 'Umesh Poojary'
+inputs:
+  myInput:
+    description: 'greeting to use UMzY'
+    required: true
+    default: 'awesome test'
+outputs:
+  myOutput:
+    description: 'memory usage'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
